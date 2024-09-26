@@ -5,13 +5,12 @@ import ItemCard from "./itemcard";
 export default function Shopping({props, add}){
   const [active, setActive] = useState(null);
   const items = props
-  console.log(active)
   function addCart(event){
     const quantity = document.querySelector("#quantity").value;
-    const title = active.title;
-    const price = active.price;
+    const item = active;
+    const key = crypto.randomUUID();
     event.preventDefault();
-    add({title, price, quantity});
+    add({item, quantity, key});
     setActive(null);
   }
 

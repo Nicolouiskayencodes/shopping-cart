@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/header'
 import Home from './components/home'
 import Shopping from './components/shopping'
+import Cart from './components/cart'
 
 function App() {
   const {page} = useParams()
@@ -25,16 +26,19 @@ function App() {
   function addCart(item){
     setCart([...cart, item]);
   }
-   console.log(cart)
+  let total = 0;
+  cart.forEach(item => total += parseInt(item.quantity))
 
   return (
     <>
-      <Header />
+      <Header itemsTotal={total}/>
       {page === 'shopping' ? (
         (loading && <p>Loading...</p>),
         (error && <p>A network error was encountered</p>),
         (items && <Shopping props={items} add={addCart}/>)
-      ): (
+      ): page === 'cart' ? (
+        <Cart items={cart} />
+      ):(
         <Home />
       )}
    </>

@@ -6,6 +6,6 @@ export default function ItemCard(item){
   return <div>
     <img src={image} />
     <h2>{title}</h2>
-    <p>{price}</p>
+    <p>${price}</p>
   </div>
 }

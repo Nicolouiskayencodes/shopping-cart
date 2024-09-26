@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart component > renders card 1`] = `
+<div>
+  <div>
+    <img
+      src="url"
+    />
+    <h2>
+      title
+    </h2>
+    <p>
+      $
+      10
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Cart component > renders cart 1`] = `
+<div>
+  <div>
+    <img
+      src="url"
+    />
+    <h2>
+      title
+    </h2>
+    <p>
+      $
+      10
+    </p>
+  </div>
+</div>
+`;

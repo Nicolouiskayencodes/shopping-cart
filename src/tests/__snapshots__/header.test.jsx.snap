@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header component > renders Header 1`] = `
+<div>
+  <div>
+    <h1>
+      InterPorium
+    </h1>
+    <a
+      href="/"
+    >
+      Home
+    </a>
+    <hr />
+    <a
+      href="/shopping"
+    >
+      Shop
+    </a>
+    <hr />
+    <a
+      href="/cart"
+    >
+      <img
+        src="/src/assets/cart-variant.svg"
+      />
+       
+      2
+    </a>
+  </div>
+</div>
+`;
