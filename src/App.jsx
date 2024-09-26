@@ -26,6 +26,11 @@ function App() {
   function addCart(item){
     setCart([...cart, item]);
   }
+  function remove(item){
+    let array = [...cart]
+    array.splice(cart.indexOf(item),1)
+    setCart(array)
+  }
   let total = 0;
   cart.forEach(item => total += parseInt(item.quantity))
 
@@ -37,7 +42,7 @@ function App() {
         (error && <p>A network error was encountered</p>),
         (items && <Shopping props={items} add={addCart}/>)
       ): page === 'cart' ? (
-        <Cart items={cart} />
+        <Cart items={cart} func={remove}/>
       ):(
         <Home />
       )}

@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-export default function Cart({items}){
+import styles from "../styles/cart.module.css"
+export default function Cart({items, func}){
   let total = 0;
   items.forEach(item => {
     let quantity = item.quantity;
@@ -8,18 +9,22 @@ export default function Cart({items}){
   });
   return(
     <div>
-      <h1>Shopping Cart</h1>
+      <h1 className={styles.title}>Shopping Cart</h1>
       {items.map(item=><div key={item.key} >
         <img src={item.item.image} />
         <p>{item.item.title}</p>
         <p>x{item.quantity}</p>
         <p>${item.item.price}</p>
+        <button onClick={()=>func(item)}>X</button>
       </div>)}
-      <h2>Total: ${total}</h2>
+      {items.length>0 && <h2>Total: ${total}</h2>}
+      {items.length>0 && <button onClick={()=>alert("Purchase functionality not included")}>Purchase</button>}
+      {items.length===0 && <p>Your cart is empty!</p>}
     </div>
   )
 }
 
 Cart.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.object)
+  items: PropTypes.arrayOf(PropTypes.object),
+  func: PropTypes.func,
 }

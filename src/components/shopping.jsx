@@ -16,6 +16,7 @@ export default function Shopping({props, add}){
 
   return <div>
     {active !== null && <dialog open>
+      <button type="button" onClick={()=>setActive(null)}>X</button>
       <img src={active.image}></img>
       <h1>{active.title}</h1>
       <p>{active.description}</p>
