@@ -2,31 +2,21 @@
 
 exports[`Cart component > renders card 1`] = `
 <div>
-  <div>
+  <div
+    class="_card_71d7ae"
+  >
     <img
+      class="_img_71d7ae"
       src="url"
     />
-    <h2>
+    <h2
+      class="_name_71d7ae"
+    >
       title
     </h2>
-    <p>
-      $
-      10
-    </p>
-  </div>
-</div>
-`;
-
-exports[`Cart component > renders cart 1`] = `
-<div>
-  <div>
-    <img
-      src="url"
-    />
-    <h2>
-      title
-    </h2>
-    <p>
+    <p
+      class="_price_71d7ae"
+    >
       $
       10
     </p>

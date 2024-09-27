@@ -2,117 +2,76 @@
 
 exports[`App > App snapshot 1`] = `
 <div>
-  <div>
-    <h1>
+  <div
+    class="_header_5800ce"
+  >
+    <h1
+      class="_title_5800ce"
+    >
       InterPorium
     </h1>
-    <a
-      href="/"
+    <div
+      class="_nav_5800ce"
     >
-      Home
-    </a>
-    <hr />
-    <a
-      href="/shopping"
-    >
-      Shop
-    </a>
-    <hr />
-    <a
-      href="/cart"
-    >
-      <img
-        src="/src/assets/cart-variant.svg"
-      />
-       
-    </a>
-  </div>
-  <div>
-    <h1>
-      InterPorium
-    </h1>
-    <img
-      alt=""
-      src="/src/assets/checkout.jpg"
-    />
-    <p>
-      Photo by 
       <a
-        href="https://unsplash.com/@blakewisz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        class="_active_5800ce"
+        href="/"
       >
-        Blake Wisz
+        Home
       </a>
-       on 
       <a
-        href="https://unsplash.com/photos/person-holding-smartphone-beside-tablet-computer-Xn5FbEM9564?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        href="/shopping"
       >
-        Unsplash
+        Shop
       </a>
-    </p>
-    <p>
-      Welcome to the InterPorium! We are a sell a large assortment of high quality and affordable goods. We source our products from community oriented and environmentally friendly small businesses worldwide! We are dedicated to positive customer experiences and linking buyers and sellers across the globe. If you are interested in getting in contact, email us at interporium@fakebusinessinquiries.net. We hope you like what you see!
-    </p>
-    <div>
-      InterPorium™ nicolouiskayencodes 2024
+      <a
+        href="/cart"
+      >
+        <img
+          class="_img_5800ce"
+          src="/src/assets/cart-variant.svg"
+        />
+         
+      </a>
     </div>
   </div>
-</div>
-`;
-
-exports[`App > loading text is shown while API request is in progress 1`] = `
-<div>
-  <div>
-    <h1>
-      InterPorium
-    </h1>
-    <a
-      href="/"
-    >
-      Home
-    </a>
-    <hr />
-    <a
-      href="/shopping"
-    >
-      Shop
-    </a>
-    <hr />
-    <a
-      href="/cart"
-    >
-      <img
-        src="/src/assets/cart-variant.svg"
-      />
-       
-    </a>
-  </div>
-  <div>
-    <h1>
-      InterPorium
-    </h1>
+  <div
+    class="_container_3f2dd1"
+  >
     <img
       alt=""
+      class="_img_3f2dd1"
       src="/src/assets/checkout.jpg"
     />
-    <p>
-      Photo by 
-      <a
-        href="https://unsplash.com/@blakewisz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+    <div
+      class="_right_3f2dd1"
+    >
+      <p
+        class="_info_3f2dd1"
       >
-        Blake Wisz
-      </a>
-       on 
-      <a
-        href="https://unsplash.com/photos/person-holding-smartphone-beside-tablet-computer-Xn5FbEM9564?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        Welcome to the InterPorium! We are a sell a large assortment of high quality and affordable goods. We source our products from community oriented and environmentally friendly small businesses worldwide! We are dedicated to positive customer experiences and linking buyers and sellers across the globe. If you are interested in getting in contact, email us at interporium@fakebusinessinquiries.net. We hope you like what you see!
+      </p>
+      <p
+        class="_extra_3f2dd1"
       >
-        Unsplash
-      </a>
-    </p>
-    <p>
-      Welcome to the InterPorium! We are a sell a large assortment of high quality and affordable goods. We source our products from community oriented and environmentally friendly small businesses worldwide! We are dedicated to positive customer experiences and linking buyers and sellers across the globe. If you are interested in getting in contact, email us at interporium@fakebusinessinquiries.net. We hope you like what you see!
-    </p>
-    <div>
-      InterPorium™ nicolouiskayencodes 2024
+        Photo by 
+        <a
+          href="https://unsplash.com/@blakewisz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >
+          Blake Wisz
+        </a>
+         on 
+        <a
+          href="https://unsplash.com/photos/person-holding-smartphone-beside-tablet-computer-Xn5FbEM9564?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >
+          Unsplash
+        </a>
+      </p>
+      <div
+        class="_extra_3f2dd1"
+      >
+        InterPorium™ nicolouiskayencodes 2024
+      </div>
     </div>
   </div>
 </div>

@@ -3,16 +3,30 @@
 exports[`Shopping component > renders card 1`] = `
 <div>
   <div>
-    <button>
-       
-      <div>
-        <img />
-        <h2 />
-        <p>
-          $
-        </p>
-      </div>
-    </button>
+    <div
+      class="_container_56a2b4"
+    >
+      <button
+        class="_btn_56a2b4"
+      >
+         
+        <div
+          class="_card_71d7ae"
+        >
+          <img
+            class="_img_71d7ae"
+          />
+          <h2
+            class="_name_71d7ae"
+          />
+          <p
+            class="_price_71d7ae"
+          >
+            $
+          </p>
+        </div>
+      </button>
+    </div>
   </div>
 </div>
 `;

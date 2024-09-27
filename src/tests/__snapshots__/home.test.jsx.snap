@@ -2,33 +2,43 @@
 
 exports[`Home component > renders cart 1`] = `
 <div>
-  <div>
-    <h1>
-      InterPorium
-    </h1>
+  <div
+    class="_container_3f2dd1"
+  >
     <img
       alt=""
+      class="_img_3f2dd1"
       src="/src/assets/checkout.jpg"
     />
-    <p>
-      Photo by 
-      <a
-        href="https://unsplash.com/@blakewisz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+    <div
+      class="_right_3f2dd1"
+    >
+      <p
+        class="_info_3f2dd1"
       >
-        Blake Wisz
-      </a>
-       on 
-      <a
-        href="https://unsplash.com/photos/person-holding-smartphone-beside-tablet-computer-Xn5FbEM9564?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        Welcome to the InterPorium! We are a sell a large assortment of high quality and affordable goods. We source our products from community oriented and environmentally friendly small businesses worldwide! We are dedicated to positive customer experiences and linking buyers and sellers across the globe. If you are interested in getting in contact, email us at interporium@fakebusinessinquiries.net. We hope you like what you see!
+      </p>
+      <p
+        class="_extra_3f2dd1"
       >
-        Unsplash
-      </a>
-    </p>
-    <p>
-      Welcome to the InterPorium! We are a sell a large assortment of high quality and affordable goods. We source our products from community oriented and environmentally friendly small businesses worldwide! We are dedicated to positive customer experiences and linking buyers and sellers across the globe. If you are interested in getting in contact, email us at interporium@fakebusinessinquiries.net. We hope you like what you see!
-    </p>
-    <div>
-      InterPorium™ nicolouiskayencodes 2024
+        Photo by 
+        <a
+          href="https://unsplash.com/@blakewisz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >
+          Blake Wisz
+        </a>
+         on 
+        <a
+          href="https://unsplash.com/photos/person-holding-smartphone-beside-tablet-computer-Xn5FbEM9564?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >
+          Unsplash
+        </a>
+      </p>
+      <div
+        class="_extra_3f2dd1"
+      >
+        InterPorium™ nicolouiskayencodes 2024
+      </div>
     </div>
   </div>
 </div>

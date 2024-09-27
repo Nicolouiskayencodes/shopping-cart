@@ -2,31 +2,39 @@
 
 exports[`Header component > renders Header 1`] = `
 <div>
-  <div>
-    <h1>
+  <div
+    class="_header_5800ce"
+  >
+    <h1
+      class="_title_5800ce"
+    >
       InterPorium
     </h1>
-    <a
-      href="/"
+    <div
+      class="_nav_5800ce"
     >
-      Home
-    </a>
-    <hr />
-    <a
-      href="/shopping"
-    >
-      Shop
-    </a>
-    <hr />
-    <a
-      href="/cart"
-    >
-      <img
-        src="/src/assets/cart-variant.svg"
-      />
-       
-      2
-    </a>
+      <a
+        class="_active_5800ce"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        href="/shopping"
+      >
+        Shop
+      </a>
+      <a
+        href="/cart"
+      >
+        <img
+          class="_img_5800ce"
+          src="/src/assets/cart-variant.svg"
+        />
+         
+        2
+      </a>
+    </div>
   </div>
 </div>
 `;

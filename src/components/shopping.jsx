@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types"
 import ItemCard from "./itemcard";
+import style from "../styles/shopping.module.css";
 
 export default function Shopping({props, add}){
   const [active, setActive] = useState(null);
@@ -15,19 +16,21 @@ export default function Shopping({props, add}){
   }
 
   return <div>
-    {active !== null && <dialog open>
-      <button type="button" onClick={()=>setActive(null)}>X</button>
-      <img src={active.image}></img>
-      <h1>{active.title}</h1>
-      <p>{active.description}</p>
-      <p>${active.price}</p>
-      <form>
-        <label>Quantity:<input id="quantity" type="number" defaultValue={1}></input></label>
-        <button type="button" onClick={()=>setActive(null)}>Cancel</button>
-        <button type="button" onClick={addCart} >Add to Cart</button>
-      </form>
+    {active !== null && <dialog className={style.popup} open>
+      <div className={style.item}>
+        <button type="button" onClick={()=>setActive(null)} className={style.exit}>X</button>
+        <img src={active.image} className={style.img}></img>
+        <h1 className={style.title}>{active.title}</h1>
+        <p className={style.description}>{active.description}</p>
+        <p>${active.price}</p>
+        <form className={style.form}>
+          <label>Quantity:<input id="quantity" type="number" defaultValue={1}></input></label>
+          <button type="button" onClick={()=>setActive(null)} className={style.formbutton}>Cancel</button>
+          <button type="button" onClick={addCart} className={style.formbutton}>Add to Cart</button>
+        </form>
+      </div>
       </dialog>}
-    {items.map(item => <button key={item.id} onClick={()=>setActive(item)}> <ItemCard props={item} /></button> )}
+    <div className={style.container}>{items.map(item => <button key={item.id} onClick={()=>{setActive(item)}} className={style.btn}> <ItemCard props={item} /></button> )}</div>
   </div>
 }
 

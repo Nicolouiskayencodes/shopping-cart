@@ -2,14 +2,19 @@
 
 exports[`Cart component > renders cart 1`] = `
 <div>
-  <div>
-    <h1>
+  <div
+    class="_body_d97d86"
+  >
+    <h1
+      class="_title_d97d86"
+    >
       Shopping Cart
     </h1>
-    <h2>
-      Total: $
-      0
-    </h2>
+    <p
+      class="_empty_d97d86"
+    >
+      Your cart is empty!
+    </p>
   </div>
 </div>
 `;
