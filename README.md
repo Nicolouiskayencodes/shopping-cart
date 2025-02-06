@@ -1,2 +1,6 @@
 # shopping-cart
-Practice putting together all of my react skills including but not limited to react-router, vitest, and css-modules
+Live preview: https://interporium.netlify.app/
+
+Shop and add to a shopping cart.
+
+Showcasing all of my react skills including limited to react-router, vitest, and css-modules
